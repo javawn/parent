@@ -125,7 +125,9 @@ public class InstallController extends JbootController {
             InstallUtils.initJPressTables();
 
             DataSourceConfig config = InstallUtils.getDataSourceConfig();
-            config.setName(DataSourceConfig.NAME_DEFAULT);
+            //TODO 启动报错
+            //config.setName(DataSourceConfig.NAME_DEFAULT);
+            config.setName("main11");
 
             ActiveRecordPlugin activeRecordPlugin = JbootDbManager.me().createRecordPlugin(config);
             activeRecordPlugin.start();

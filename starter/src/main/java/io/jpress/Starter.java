@@ -25,6 +25,10 @@ import io.jboot.Jboot;
 public class Starter {
 
     public static void main(String[] args) {
+        for (String a:args
+             ) {
+            System.out.println(a);
+        }
         Jboot.run(args);
     }
 
