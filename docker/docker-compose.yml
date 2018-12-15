@@ -32,4 +32,3 @@ services:
        JPRESS_DB_PASSWORD: jpress
 #    volumes:
 #       - "/Users/michael/Desktop/test:/usr/local/tomcat/webapps/ROOT/attachment"
-
